@@ -130,7 +130,7 @@ class Poker
     }
     public Boolean straight(int[] pairs)
     {
-        for (int i = 0; i < 13; i++)
+        for (int i = 0; i < 10; i++)
         {
             if ((pairs[i] == 1) && (pairs[i + 1] == 1) && (pairs[i + 2] == 1) && (pairs[i + 3] == 1) && (pairs[i + 4] == 1))
                 return (true);

@@ -154,5 +154,18 @@ class Program {
     Console.WriteLine(gameSix.scoreHand(1));
     gameSix.showHand(2);
     Console.WriteLine(gameSix.scoreHand(2));
+
+
+    /*Console.WriteLine("\n\nRandom games\n\n");
+
+    
+    for(int i=0; i < 2598960; i++){
+      Poker game=new Poker();
+    game.showHand(1);
+    Console.WriteLine(game.scoreHand(1));
+    game.showHand(2);
+    Console.WriteLine(game.scoreHand(2));
+      game = null;
+    }*/
   }
 }
